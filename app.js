@@ -5,7 +5,7 @@ todoApp.controller('TodoCtrl', ['$scope', '$firebaseArray',
     function($scope, $firebaseArray) {
 
         // CREATE A FIREBASE REFERENCE
-        var todosRef = new Firebase('https://your-firebase-url.firebaseio.com/');
+        var todosRef = new Firebase('https://fir-fbdf6.firebaseio.com/');
 
         // GET TODOS AS AN ARRAY
         $scope.todos = $firebaseArray(todosRef);
